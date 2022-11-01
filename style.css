@@ -112,5 +112,15 @@ section#s6 {
   box-shadow: 0.5px 0.5px 2px;
   border-radius: 10px;
 }
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.imageBox:hover .hoverImg {
+  display: block;
+}
+/*更多資訊按鈕*/
 
 /*更多資訊按鈕*/
