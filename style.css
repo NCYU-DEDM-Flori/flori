@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
-
 #loading {
   font-size: 20pt;
   z-index: 1;
@@ -16,7 +15,6 @@
 .card-body {
   text-align: center;
 }
-
 * {
   /*border: solid 1px red;*/
   margin: 0;
@@ -24,17 +22,14 @@
   box-sizing: border-box;
   font-size: 12pt;
 }
-
 .container {
   padding-top: 70px;
 }
-
 body {
   background: white;
   font-family: "微軟正黑體", sans-serif;
   font-size: 12pt;
 }
-
 section {
   padding-top: 70px;
   display: flex;
@@ -46,7 +41,6 @@ section {
   color: #222;
   font-weight: 600;
 }
-
 section#s1 {
   background-color: #ffd4e5;
 }
@@ -55,7 +49,7 @@ section#s2 {
 }
 section#s3 {
   background-color: #eecbff;
-  padding-bottom: 200px;
+  /*padding-bottom: 200px;*/
 }
 section#s4 {
   background-color: #feffa3;
@@ -101,26 +95,25 @@ section#s6 {
 .toTop-arrow:focus {
   outline: none;
 }
-
 /* Style the navigation bar */
+
 .navbar {
   background-color: #123456;
-  box-shadow: 1px 1px 10px;
+  box-shadow: 0.5px 0.5px 5px;
 }
 /* Navbar links on mouse-over */
+
 .navbar a:hover {
   background-color: #feffa3;
   font-weight: 600;
-  box-shadow: 0.5px 0.5px 10px;
+  box-shadow: 0.5px 0.5px 2px;
 }
-
 .imageBox .hoverImg {
   position: absolute;
   left: 0;
   top: 0;
   display: none;
 }
-
 .imageBox:hover .hoverImg {
   display: block;
 }
