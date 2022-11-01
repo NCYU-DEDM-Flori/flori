@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: white;
+  background: white;
   font-family: "微軟正黑體", sans-serif;
   font-size: 12pt;
 }
@@ -42,27 +42,10 @@ section {
   margin: 0 auto;
   color: #222;
   font-weight: 600;
-  border-radius: 10px;
 }
 
-section#s1 {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-section#s2 {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-section#s3 {
-  background-color: rgba(255, 255, 255, 0.3);
-  padding-bottom: 200px;
-}
-section#s4 {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-section#s5 {
-  background-color: rgba(255, 255, 255, 0.3);
-}
 section#s6 {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #ffd4e5;
 }
 .toTop-arrow {
   width: 3rem;
@@ -114,3 +97,20 @@ section#s6 {
 }
 
 /*更多資訊按鈕*/
+
+.wrap {
+  width: 760px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+}
+.wrap img {
+  width: 40%;
+  vertical-align: middle;
+}
+.txt {
+  width: 60%;
+  vertical-align: middle;
+  padding-left: 20px;
+}
