@@ -20,6 +20,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 12pt;
+  font-family: "思源黑體", sans-serif;
 }
 
 .container {
@@ -28,7 +29,7 @@
 
 body {
   background: white;
-  font-family: "微軟正黑體", sans-serif;
+  font-family: "思源黑體", sans-serif;
   font-size: 12pt;
 }
 
@@ -113,4 +114,50 @@ section#s6 {
   width: 60%;
   vertical-align: middle;
   padding-left: 20px;
+}
+/*卡牌翻轉*/
+.card {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  perspective: 600px;
+}
+
+.card:hover .back,
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card .back,
+.card .back div,
+.card .front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.back,
+.front {
+  transition: all 0.5s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.back1 {
+  background-image: url("https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/card0.png?raw=true");
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.front {
+  background-image: url("https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/card1-1.png?raw=true");
+  padding: 4%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-position: center;
+  background-size: cover;
 }
