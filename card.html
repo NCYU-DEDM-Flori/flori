@@ -1,47 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Flori卡牌種類</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<body>
-  <html lang="en">
-
   <head>
-    <title>Flori</title>
-  </head>
-
-  <body>
-    <div id='loading'>
-      正在載入頁面資料...
-    </div>
+    <meta charset="UTF-8">
+    <title>Flori卡牌種類</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="catalog/view/javascript/jquery/jquery-1.6.1.min.js" type="text/javascript">
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    </script>
-    <script>
-      AOS.init();
-    </script>
-    <meta charset="utf-8">
+    <script src="catalog/view/javascript/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!-- partial:index.partial.html -->
+  <div id='loading'>正在載入頁面資料...</div>
+
+
+  <body>
     <!--Logo-->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-      <a class="navbar-brand" href="index.html"><img alt="" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/logo.png?raw=true" height=55px></a>
-
-      <button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-
+      <a class="navbar-brand" href="index.html"><img src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/logo.png?raw=true" height=55px alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -50,12 +33,34 @@
           <li class="nav-item">
             <a class="nav-link" href="story.html">桌遊故事</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="game.html">桌遊玩法</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              桌遊玩法
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="game.html#s1">全部張數</a>
+              <a class="dropdown-item" href="game.html#s2">遊玩人數</a>
+              <a class="dropdown-item" href="game.html#s3">遊戲步驟</a>
+              <a class="dropdown-item" href="game.html#s4">進行方式</a>
+              <a class="dropdown-item" href="game.html#s5">遊戲結束</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="card.html">卡牌種類</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              卡牌種類
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="card.html#s1">角色卡-入侵種</a>
+              <a class="dropdown-item" href="card.html#s2">角色卡-瀕危種</a>
+              <a class="dropdown-item" href="card.html#s3">角色卡-特有種</a>
+              <a class="dropdown-item" href="card.html#s4">能量卡</a>
+              <a class="dropdown-item" href="card.html#s5">功能卡</a>
+              <a class="dropdown-item" href="card.html#s6">其他卡牌</a>
+            </div>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="real.html">實體桌遊</a>
           </li>
@@ -65,16 +70,12 @@
         </ul>
       </div>
     </nav>
-    <br>
 
     <!--   動畫 -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    </script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <!--Banner-->
-    <img src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/banner.jpg?raw=true" width=100%>
+    <div class="banner"><img src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/banner.jpg?raw=true"></div>
     <!--入侵-->
     <section class="full">
       <section id="s1">
@@ -92,7 +93,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/1-1.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x1025/?text=1">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f1-1.jpg?raw=true">
                   </div>
                 </div>
 
@@ -100,7 +101,7 @@
                   <h4 class="card-title">馬纓丹</h4>
 
                   <p class="card-text">(入侵種)</p>
-                  <a class="btn btn-primary" href="card1-1.html" target="_self">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card1-1.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -111,7 +112,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/1-2.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=2">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f1-2.jpg?raw=true">
                   </div>
                 </div>
 
@@ -119,7 +120,7 @@
                   <h4 class="card-title">大花咸豐草</h4>
 
                   <p class="card-text">(入侵種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card1-2.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -130,7 +131,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/1-3.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=3">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f1-3.jpg?raw=true">
                   </div>
                 </div>
 
@@ -138,7 +139,7 @@
                   <h4 class="card-title">小花蔓澤蘭</h4>
 
                   <p class="card-text">(入侵種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card1-3.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -149,7 +150,7 @@
     </section>
     <!--瀕危-->
     <section class="full">
-      <section id="s4">
+      <section id="s2">
         <div data-aos="fade-down" data-aos-duration="3000">
           <div class="row">
 
@@ -165,7 +166,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/2-4.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=4">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f2-1.jpg?raw=true">
                   </div>
                 </div>
 
@@ -173,7 +174,7 @@
                   <h4 class="card-title">艷紅鹿子百合</h4>
 
                   <p class="card-text">(瀕危種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card2-1.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -184,7 +185,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/2-5.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=5">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f2-2.jpg?raw=true">
                   </div>
                 </div>
 
@@ -192,7 +193,7 @@
                   <h4 class="card-title">澤珍珠菜</h4>
 
                   <p class="card-text">(瀕危種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card2-2.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -203,7 +204,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/2-6.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=6">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f2-3.jpg?raw=true">
                   </div>
                 </div>
 
@@ -211,7 +212,7 @@
                   <h4 class="card-title">細葉卷丹</h4>
 
                   <p class="card-text">(瀕危種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card2-3.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -222,7 +223,7 @@
     </section>
     <!--特有-->
     <section class="full">
-      <section id="s4">
+      <section id="s3">
         <div data-aos="fade-down" data-aos-duration="3000">
           <div class="row">
             <div class="col-sm-12">
@@ -237,7 +238,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/3-7.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=7">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f3-1.jpg?raw=true">
                   </div>
                 </div>
 
@@ -245,7 +246,7 @@
                   <h4 class="card-title">南湖柳葉菜</h4>
 
                   <p class="card-text">(特有種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card3-1.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -256,7 +257,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/3-8.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=8">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f3-2.jpg?raw=true">
                   </div>
                 </div>
 
@@ -264,7 +265,7 @@
                   <h4 class="card-title">玉山薄雪草</h4>
 
                   <p class="card-text">(特有種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card3-2.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -275,7 +276,7 @@
                   <div class="imageInn"><img alt="image" class="card-img-top" src="https://raw.githubusercontent.com/happy331203/draw/gh-pages/3-9.png">
                   </div>
 
-                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://fakeimg.pl/800x800/?text=9">
+                  <div class="hoverImg"><img alt="Profile Image" class="card-img-top" src="https://github.com/NCYU-DEDM-Flori/draw/blob/gh-pages/f3-3.jpg?raw=true">
                   </div>
                 </div>
 
@@ -283,7 +284,7 @@
                   <h4 class="card-title">黑斑龍膽</h4>
 
                   <p class="card-text">(特有種)</p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/123/card3-3.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -292,7 +293,7 @@
         </div>
       </section>
     </section>
-    <!--環境卡-->
+    <!--能量卡-->
     <section class="full">
       <section id="s4">
         <div data-aos="fade-down" data-aos-duration="3000">
@@ -312,7 +313,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/energy/temp.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -326,7 +327,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/energy/water.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -340,7 +341,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/energy/sun.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -354,7 +355,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/energy/hand.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -365,7 +366,7 @@
     </section>
     <!--功能卡-->
     <section class="full">
-      <section id="s4">
+      <section id="s5">
         <div data-aos="fade-down" data-aos-duration="3000">
           <div class="row">
             <div class="col-sm-12">
@@ -383,7 +384,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/key.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -397,7 +398,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/du.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -411,7 +412,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/blood.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -427,7 +428,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/stop.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -441,7 +442,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/protect.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -455,7 +456,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/mask.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -470,7 +471,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/turn.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -484,7 +485,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/mirror.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -498,7 +499,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_blank">更多資訊</a>
+                  <a class="btn btn-primary" href="/fun/mazu.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -509,7 +510,7 @@
     </section>
     <!--其他-->
     <section class="full">
-      <section id="s5">
+      <section id="s6">
         <div data-aos="fade-down" data-aos-duration="3000">
           <div class="row">
             <div class="col-sm-12">
@@ -527,7 +528,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_self">更多資訊</a>
+                  <a class="btn btn-primary" href="/more/ablood.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -541,7 +542,7 @@
 
                   <p class="card-text">
                   </p>
-                  <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_self">更多資訊</a>
+                  <a class="btn btn-primary" href="/more/role.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -554,7 +555,7 @@
                   <h4 class="card-title">咪波嚕
                     <p class="card-text">
                     </p>
-                    <a class="btn btn-primary" href="%E7%B6%B2%E5%9D%80" target="_self">更多資訊</a>
+                    <a class="btn btn-primary" href="/more/mibo.html" target="_self">更多資訊</a>
                 </div>
               </div>
             </div>
@@ -565,7 +566,7 @@
     </section>
     <!--關於我們-->
     <section class="banner">
-      <section id="s6">
+      <section id="s7">
         <div data-aos="fade-right">
           <div class="image2">
           </div>
@@ -601,11 +602,6 @@
       $(window).load(function() {
         $('#loading').hide(1000);
       });
-    </script>
+    </script> 
   </body>
-
-  </html>
-<!-- partial -->
-  
-</body>
 </html>
