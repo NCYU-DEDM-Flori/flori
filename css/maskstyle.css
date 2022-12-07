@@ -178,14 +178,14 @@ section#s3 {
 }
 
 .back1 {
-  background-image: url("/src/fun0.png");
+  background-image: url("./src/fun0.png");
   background-position: center;
   background-size: cover;
   transform: scaleX(-1);
 }
 
 .front {
-  background-image: url("/src/fun6.png");
+  background-image: url("./src/fun6.png");
   padding: 4%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
