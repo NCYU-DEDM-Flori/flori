@@ -67,6 +67,8 @@ body {
   background: white;
   font-family: "GenSenRounded JP", sans-serif;
   font-size: 14pt;
+  background-image: url("../src/bg.jpg");
+  background-size: 100%;
 }
 
 section {
@@ -83,11 +85,11 @@ section {
 }
 
 section#s6 {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 section#s3 {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .toTop-arrow {
