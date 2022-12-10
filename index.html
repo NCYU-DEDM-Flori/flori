@@ -16,9 +16,14 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <!-- partial:index.partial.html -->
-  <div id='loading'>正在載入頁面資料...</div>
+  
 
   <body>
+
+    <div class="loading-wrapper">
+      <div class="loading flower-loader"></div>
+    </div>
+
     <!--Logo-->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
       <a class="navbar-brand" href="index.html"><img src="./src/logo.png" height=55px alt=""></a>
@@ -49,7 +54,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              卡牌種類
+              <img src="./src/card.png"> 卡牌種類
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="card.html#s1">角色卡-入侵種</a>
@@ -62,7 +67,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="real.html">實體桌遊</a>
+            <a class="nav-link" href="real.html"><img src="./src/real.png"> 實體桌遊</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="team.html">關於團隊</a>
@@ -76,7 +81,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
     <!--Banner-->
-    <div class="banner"><img src="./src/banner.jpg"></div>
+    <div class="banner"><img src="./src/banner.png"></div>
 
     <section class="full">
       <section id="s2">
@@ -91,7 +96,7 @@
       <section id="s6">
         <div data-aos="fade-right">
           <div class="image2"></div>
-          聯絡我們<br>Facebook<br>Instagram<br>Youtube<br>Twitter<br>LINE
+          關於我們<br>
         </div>
         </div>
       </section>
@@ -118,12 +123,14 @@
       });
     </script>
 
+    <!-- loading -->
     <script>
-      $(window).load(function() {
-        $('#loading').hide(1000);
+      $(document).ready(function () {
+        setTimeout(function () {
+          $(".loading-wrapper").fadeOut(500);
+        }, 1000);
       });
     </script>
-    <!-- partial -->
   
   </body>
 </html>

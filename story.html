@@ -16,9 +16,13 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <!-- partial:index.partial.html -->
-  <div id='loading'>正在載入頁面資料...</div>
+  
 
   <body>
+
+    <div class="loading-wrapper">
+      <div class="loading flower-loader"></div>
+    </div>
 
     <!--Logo-->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
@@ -77,7 +81,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init();</script>
   <!--Banner-->
-  <div class="banner"><img src="./src/banner.jpg"></div>
+  <div class="banner"><img src="./src/banner.png"></div>
 
     <section class="full">
       <section id="s2">
@@ -124,11 +128,12 @@
       });
     </script>
 
-
-
+    <!-- loading -->
     <script>
-      $(window).load(function() {
-        $('#loading').hide(1000);
+      $(document).ready(function () {
+        setTimeout(function () {
+          $(".loading-wrapper").fadeOut(500);
+        }, 1000);
       });
     </script>
 

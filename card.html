@@ -15,10 +15,14 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <!-- partial:index.partial.html -->
-  <div id='loading'>正在載入頁面資料...</div>
 
 
   <body>
+    
+    <div class="loading-wrapper">
+      <div class="loading flower-loader"></div>
+    </div>
+
     <!--Logo-->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
       <a class="navbar-brand" href="index.html"><img src="./src/logo.png" height=55px alt=""></a>
@@ -75,7 +79,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
     <!--Banner-->
-    <div class="banner"><img src="./src/banner.jpg"></div>
+    <div class="banner"><img src="./src/banner.png"></div>
     <!--入侵-->
     <section class="full">
       <section id="s1">
@@ -598,10 +602,14 @@
         }).scroll();
       });
     </script>
+    <!-- loading -->
     <script>
-      $(window).load(function() {
-        $('#loading').hide(1000);
+      $(document).ready(function () {
+        setTimeout(function () {
+          $(".loading-wrapper").fadeOut(500);
+        }, 1000);
       });
-    </script> 
+    </script>
+    
   </body>
 </html>
