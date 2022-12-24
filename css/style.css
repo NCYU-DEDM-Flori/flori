@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GENSENROUNDED-B";
-  src: url("/fonts/GENSENROUNDED-B.TTC") format("truetype");
+  src: url("./fonts/GENSENROUNDED-B.TTC") format("truetype");
 }
 
 h1,
