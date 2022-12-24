@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="./src/logo.ico" type="image/x-icon">
-    <title>Flori桌遊玩法</title>
+    <title>Flori關於團隊</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.6.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
@@ -15,10 +15,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-
-
-
   <!-- partial:index.partial.html -->
+  
+
   <body>
 
     <div class="loading-wrapper">
@@ -76,136 +75,78 @@
         </ul>
       </div>
     </nav>
+ 
 
-    <!--   動畫 -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <!--Banner-->
-    
-    <section id="all">
-      <section class="full">
-          <section id="s1">
-            <div data-aos="flip-left">
-              <h2>全部張數：</h2>
-              <h4>◆角色卡:9張</h4>
-              <h4>◆角色說明卡:8張</h4>
-              <h4>◆血滴:50個血滴</h4>
-              <h4>◆環境卡:36張</h4>
-              <h4>◆功能卡:20張</h4>
-              <h4>◆咪波嚕:9張</h4>
-              <h4>◆說明書:1張</h4>
-            </div>
-          </section>
-        </section>
-    </section>
+  <!--   動畫 -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <!--Banner-->
   
-    
-
-    <section class="full">
-      <section id="s2">
-        <div data-aos="flip-left">
-          <h2>遊玩人數：</h2>
-          <img src="./src/people.png" width="90%" alt="遊玩人數表格">
-        </div>
-      </section>
-    </section>
-
-
+  <section id="all">
     <section class="full">
       <section id="s4">
-        <div data-aos="flip-left">
-          <h2>進行方式：</h2>
-          <h4>◆出牌攻擊一人</h4>
-          <h4>◆沒牌可用→丟棄一張牌</h4>
+        <div data-aos="fade-down" data-aos-duration="3000">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 align="center">卡牌種類-能量卡</h1>
+
+              <hr>
+            </div>
+            <!--溫度-->
+            <div class="col-sm-3">
+              <div class="card">
+                <img alt="image" class="card-img-top" src="./src/1.png">
+
+                <div class="card-body">
+                  <h4 class="card-title">溫度</h4>
+
+                  <h3 class="card-text">C</h3>
+                </div>
+              </div>
+            </div>
+            <!--濕度-->
+            <div class="col-sm-3">
+              <div class="card">
+                <img alt="image" class="card-img-top" src="./src/2.png">
+
+                <div class="card-body">
+                  <h4 class="card-title">濕度</h4>
+
+                  <h3 class="card-text">A</h3>
+                </div>
+              </div>
+            </div>
+            <!--日照-->
+            <div class="col-sm-3">
+              <div class="card">
+                <img alt="image" class="card-img-top" src="./src/3.png">
+
+                <div class="card-body">
+                  <h4 class="card-title">日照</h4>
+
+                  <h3 class="card-text">R</h3>
+                </div>
+              </div>
+            </div>
+            <!--人為-->
+            <div class="col-sm-3">
+              <div class="card">
+                <img alt="image" class="card-img-top" src="./src/4.png">
+
+                <div class="card-body">
+                  <h4 class="card-title">人為</h4>
+
+                  <h3 class="card-text">D</h3>
+                  
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </section>
     </section>
-
-    <section class="full">
-      <section id="s5">
-        <div data-aos="flip-left">
-          <h2>遊戲結束：</h2>
-          (特有種勝利與否，依投奔種族決定)<br>(特有種全員陣亡，不影響投票種族勝利)<h4>◆入侵種玩家全員陣亡：瀕危種勝利。</h4>
-          <h4>◆瀕危種玩家全員陣亡：入侵種勝利。</h4>
-        </div>
-      </section>
-    </section>
-
-    <section class="full">
-      <section id="s6">
-        <div class="timeline">
-          <div data-aos="flip-left">
-            <div class="container left">
-              <div class="content">
-                <h2>step1.</h2>
-                <h5>選主持人</h5>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container right">
-              <div class="content">
-                <h2>step2.</h2>
-                <h5>抽<a href="card.html">角色卡</a>、<a href="mibo.html">咪波嚕</a>(1張)</h5>
-                <h5>主持人根據<a href="#s2">遊玩人數</a>，分配種族角色卡</h5>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container left">
-              <div class="content">
-                <h2>step3.</h2>
-                <h5>發配件(<a href="role.html">角色說明卡</a>、5滴血)</h5>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container right">
-              <div class="content">
-                <h2>step4.</h2>
-                <h5>抽<a href="card#s4.html">能量卡</a>(2張)、<a href="card#s5.html">功能卡</a>(1張)</h5>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container left">
-              <div class="content">
-                <h2>step5.</h2>
-                <h5>特有種選擇投奔種族(瀕危或入侵)</h5>
-                <p>全員閉眼，特有種互相確認身分，依主持人提問，選擇要投奔哪個種族(瀕危、入侵)，投奔後即為該種族身分</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container right">
-              <div class="content">
-                <h2>step6.</h2>
-                <h5>全員公開角色卡</h5>
-                <p>依照<a href="role.html">角色說明卡</a>進行攻擊</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container left">
-              <div class="content">
-                <h2>step7.</h2>
-                <h5>決定順序</h5>
-              </div>
-            </div>
-          </div>
-          <div data-aos="flip-left">
-            <div class="container right">
-              <div class="content">
-                <h2>《注意》</h2>
-                <h5>1.咪波嚕只能使用一次；<br>出完咪波嚕不能再抽咪波嚕</h5>
-                  <h5>2.出能量卡抽能量卡；<br>出功能卡抽功能卡</h5>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </section>
+  
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <button type="button" id="BackTop" class="toTop-arrow"></button>
@@ -234,6 +175,7 @@
         }, 1000);
       });
     </script>
+
   
   </body>
 </html>
