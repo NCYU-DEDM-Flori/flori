@@ -69,6 +69,7 @@ section {
   margin: 0 auto;
   color: #222;
   font-weight: 600;
+  border-radius: 10px;
 }
 
 section#s6 {
@@ -119,12 +120,12 @@ section#s3 {
 
 /* Style the navigation bar */
 .navbar {
-  background-color: #123456;
+  background-image: url("../src/nav.jpg");
   box-shadow: 0.5px 0.5px 5px;
 }
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: #feffa3;
+  background-color: #81B17A;
   font-weight: 600;
   box-shadow: 0.5px 0.5px 2px;
   border-radius: 10px;
