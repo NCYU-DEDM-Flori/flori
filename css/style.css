@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "GENSENROUNDED-B";
-  src: url("../fonts/GENSENROUNDED-B.TTC") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@450&display=swap');
 
 h1,
 h2,
@@ -15,9 +12,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "GENSENROUNDED-B", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 
@@ -142,9 +137,8 @@ h6,
   padding: 0;
   box-sizing: border-box;
   font-size: 14pt;
-  font-family: "GENSENROUNDED-B";
+  font-family: 'Noto Sans TC', sans-serif;
 }
-
 a {font-size: 14pt}
 
 
@@ -160,8 +154,7 @@ a {font-size: 14pt}
 
 body {
   background-color: white;
-  font-family: "GENSENROUNDED-B", sans-serif;
-  font-size: 14pt;
+  font-family: 'Noto Sans TC', sans-serif;
   background-image: url("../src/bg.jpg");
   background-size: cover;
 }
@@ -169,8 +162,8 @@ body {
 section {
   padding-top: 70px;
   padding-bottom: 70px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,13 +175,15 @@ section {
   border-radius: 10px;
 }
 
-section#all{
-  padding-top: 125px;
+section.full{
+  padding-top: 225px;
 }
 
-section#all1{
-  padding-top: 100px;
+section.full0{
+  padding-top: 115px;
 }
+
+
 
 section#s1 {
   background-color: rgba(255, 255, 255, 0.7);
@@ -227,7 +222,7 @@ section#s7 {
   border: 0;
   border-radius: 33%;
   opacity: 0.6;
-  background: #000;
+  background: rgb(255, 255, 255);
   cursor: pointer;
   position: fixed;
   right: 1rem;
@@ -239,7 +234,7 @@ section#s7 {
   width: 21px;
   height: 8px;
   border-radius: 3px;
-  background: #00db00;
+  background: #ABD189;
   position: absolute;
   content: "";
 }
