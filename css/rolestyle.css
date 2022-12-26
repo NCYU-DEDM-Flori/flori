@@ -26,6 +26,8 @@ body {
 section {
   padding-top: 70px;
   padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,17 +39,12 @@ section {
   border-radius: 10px;
 }
 
-section#s6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(5px);
-}
-
 section#s3 {
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(5px);
 }
 section.full{
-padding-top: 180px;
+padding-top: 200px;
 }
 
 .toTop-arrow {

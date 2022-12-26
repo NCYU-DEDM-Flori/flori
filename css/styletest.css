@@ -1,37 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@450&display=swap');
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: 'Noto Sans TC', sans-serif;
-}
-
 
 /*載入*/
 @-moz-keyframes flower-loader {
   0% {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
-    -moz-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
+    -moz-box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
       #FFEB9E 12px -12px 0 4px, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
-    box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
+    box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
       #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
   }
   50% {
     -moz-transform: rotate(1080deg);
     transform: rotate(1080deg);
-    -moz-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
+    -moz-box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
       #FFEB9E -12px 12px 0 4px, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
-    box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px,
+    box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px,
       #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
   }
 }
@@ -39,17 +22,17 @@ h6,
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
+    -webkit-box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
       #FFEB9E 12px -12px 0 4px, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
-    box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
+    box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
       #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
   }
   50% {
     -webkit-transform: rotate(1080deg);
     transform: rotate(1080deg);
-    -webkit-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
+    -webkit-box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
       #FFEB9E -12px 12px 0 4px, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
-    box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px,
+    box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px,
       #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
   }
 }
@@ -59,11 +42,11 @@ h6,
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -moz-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
+    -moz-box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
       #FFEB9E 12px -12px 0 4px, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
-    -webkit-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
+    -webkit-box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
       #FFEB9E 12px -12px 0 4px, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
-    box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
+    box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
       #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
   }
   50% {
@@ -71,11 +54,11 @@ h6,
     -ms-transform: rotate(1080deg);
     -webkit-transform: rotate(1080deg);
     transform: rotate(1080deg);
-    -moz-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
+    -moz-box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
       #FFEB9E -12px 12px 0 4px, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
-    -webkit-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
+    -webkit-box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px,
       #FFEB9E -12px 12px 0 4px, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
-    box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px,
+    box-shadow: white 0 0 15px 0, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px,
       #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px;
   }
 }
@@ -89,11 +72,11 @@ h6,
   height: 16px;
   background: #F4BD96;
   border-radius: 100%;
-  -moz-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
+  -moz-box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
     #FFEB9E 12px -12px 0 4px, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
-  -webkit-box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
+  -webkit-box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px,
     #FFEB9E 12px -12px 0 4px, #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
-  box-shadow: #FFEB9E 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
+  box-shadow: white 0 0 15px 0, #FFEB9E -12px -12px 0 4px, #FFEB9E 12px -12px 0 4px,
     #FFEB9E 12px 12px 0 4px, #FFEB9E -12px 12px 0 4px;
   -moz-animation: flower-loader 5s infinite ease-in-out;
   -webkit-animation: flower-loader 5s infinite ease-in-out;
@@ -127,20 +110,14 @@ h6,
   text-align: center;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
-}
-
 * {
   /*border: solid 1px red;*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 14pt;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "GENSENROUNDED-B";
 }
-
-
 
 .container {
   padding-top: 70px;
@@ -154,7 +131,8 @@ h6,
 
 body {
   background-color: white;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "GENSENROUNDED-B", sans-serif;
+  font-size: 14pt;
   background-image: url("../src/bg.jpg");
   background-size: cover;
 }
@@ -162,8 +140,8 @@ body {
 section {
   padding-top: 70px;
   padding-bottom: 70px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,21 +149,9 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   color: #222;
-  font-weight: 600;
-  border-radius: 10px;
   
+  border-radius: 10px;
 }
-a {font-size: 16pt}
-
-section.full{
-  padding-top: 225px;
-}
-
-section.full0{
-  padding-top: 115px;
-}
-
-
 
 section#s1 {
   background-color: rgba(255, 255, 255, 0.7);
@@ -198,6 +164,9 @@ section#s2 {
 section#s3 {
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(5px);
+}
+section.full{
+padding-top: 180px;
 }
 section#s4 {
   background-color: rgba(255, 255, 255, 0.7);
@@ -315,7 +284,7 @@ section#s7 {
   width: 30px;
   height: 30px;
   right: -9px;
-  background-color: #81B17A;
+  background-color: #335577;
   border: 2px solid #FFF;
   top: 20px;
   border-radius: 50%;
@@ -341,9 +310,9 @@ section#s7 {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #F8FFDE;
+  border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #F8FFDE;
+  border-color: transparent transparent transparent white;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -355,9 +324,9 @@ section#s7 {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #F8FFDE;
+  border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #F8FFDE transparent transparent;
+  border-color: transparent white transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -368,7 +337,7 @@ section#s7 {
 /* The actual content */
 .content {
   padding: 20px;
-  background-color: #F8FFDE;
+  background-color: white;
   position: relative;
   border-radius: 6px;
 }
